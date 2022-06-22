@@ -1,0 +1,32 @@
+body {
+background-color: white;
+background-image: url(IMG/fondotex.jpg);
+background-repeat:repeat;
+background-attachment: fixed;
+background-size: 100vw}
+@font-face {font-family: "arabe"; src: url("../fonts/Simplicity.ttf") format("truetype");
+}
+
+.tituloprincipal {font-family: 'Kaushan Script', cursive;}
+.tituloprincipal {display: flex; justify-content:center;}
+.titulogrande {font-size: 100px;}
+.btnwsp a {position: fixed; width: 55px; height: 55px;
+line-height: 55px; bottom: 30px; right: 30px; background: #0df053; color: #fff; border-radius: 50px;
+text-align: center; font-size: 30px; box-shadow: 0px 1px 10px rgba (0, 0, 0, 0.3); z-index: 100; text-decoration: none;}
+.btnwsp a:hover {text-decoration: none; color: #0df053; background: #fff}
+.titulof {font-family: 'Kaushan Script', cursive;}
+.textohistoria {font-family:sans-serif; font-size: 20px;}
+
+.ingredientes {border-style:solid;  width: 33%; display: flex; flex-direction: column; align-items: center;}
+.receta {border-style:solid; width: 33%; display: flex; flex-direction: column;align-items: center;}
+.datos {width: 33%;}
+.intro {width: 50%;}
+.historia {display: flex; justify-content: space-around;}
+.central {display: flex; justify-content: space-around;}
+.flexcard {display: flex;justify-content:space-around; flex-wrap: wrap;}
+  footer {width: 100%; background-color: red;
+   clear: both;}
+  .box-autor {display: flex; justify-content:space-around; color: white; font-family:sans-serif; font-size: 12px; display: flex; justify-content: center;}
+    .todoelfooter {display: flex; justify-content: space-around; padding: 0 20px 0 20px;}
+    .redes-sociales a { color: white; text-decoration:none; font-size: 20px; padding: 0 20px 0 20px;}
+    .redes-sociales a:hover {transform: scale(1.3);}
